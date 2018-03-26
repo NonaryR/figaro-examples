@@ -1,4 +1,4 @@
-dea
+idea
 out/
 *.class
 *.log
@@ -13,3 +13,4 @@ project/plugins/project/
 .lib/
 .idea
 .ensime*
+Chapter3Data/LearnedModel.txt

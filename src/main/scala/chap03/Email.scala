@@ -48,7 +48,7 @@ class Email(file: File) {
 
 object Email {
   def main(args: Array[String]) {
-    val email = new Email(new File("R:/dev/Book/SpamFilter/TESTING/TEST_00009.eml"))
+    val email = new Email(new File("/Users/nonaryr/Documents/clojure/probabilistic-programming/figaro-examples/Chapter3Data/Training/NormalTrainingEmail_33.txt"))
     println(email.allWords)
   }
 }
