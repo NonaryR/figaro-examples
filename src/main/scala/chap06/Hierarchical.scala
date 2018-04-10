@@ -1,9 +1,9 @@
 package chap06
 
-import com.cra.figaro.language.{Flip, Constant} //#A
-import com.cra.figaro.library.atomic.continuous.{Uniform, Beta} //#A
-import com.cra.figaro.library.compound.If //#A
-import com.cra.figaro.algorithm.sampling.Importance //#A
+import com.cra.figaro.language.{Flip, Constant}
+import com.cra.figaro.library.atomic.continuous.{Uniform, Beta}
+import com.cra.figaro.library.compound.If
+import com.cra.figaro.algorithm.sampling.Importance
 
 object Hierarchical {
   def main(args: Array[String]) {

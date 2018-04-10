@@ -15,8 +15,8 @@ object ProductDistribution {
       def helper(friendsVisited: Int, totalLikes: Int, unprocessedLikes: Int): Element[Int] = {
         if (unprocessedLikes == 0) Constant(totalLikes)
         else {
-          val unvisitedFraction = //#C
-            1.0 - (friendsVisited.toDouble - 1)/ (numFriends - 1) //#C
+          val unvisitedFraction =
+            1.0 - (friendsVisited.toDouble - 1)/ (numFriends - 1)
           val newlyVisited = Binomial(2, unvisitedFraction)
           val newlyLikes = Binomial(newlyVisited, Constant(productQuality))
           Chain(newlyVisited, newlyLikes,
